@@ -28,9 +28,10 @@
 }
 
 .overlay{
-    border-radius: 30%;
+    border-radius: 40%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     position: absolute;
-    bottom: 0;
+    bottom: 1;
     left: 0;
     background:rgba(113, 221, 224, 0.5) ;
     width: 100%;
