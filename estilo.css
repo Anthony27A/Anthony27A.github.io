@@ -31,7 +31,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background:rgb(245, 222, 179, 0.5) ;
+    background:rgba(18, 204, 148, 0.5) ;
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -39,7 +39,7 @@
 }
 
 .overlay h2{
-    color: #fff;
+    color: #b31515;
     font-weight: 300;
     font-size:30px;
     position: absolute;
