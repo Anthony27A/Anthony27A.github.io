@@ -6,6 +6,54 @@
 }
 
 
+/* barra de navegacion */
+ul.clase1{
+  list-style-type: none;
+  padding: 30px 50px 0 0;
+  overflow: hidden; 
+  position: absolute; /* para ubicar la barra de navegacion en la parte superior */
+  top: 0;
+  text-align: right;
+  width: 100%; 
+}
+li{
+  float: right; /* posiciona a la derecha la lista */
+}
+.formulario:hover{
+  background-color: rgba(0, 0, 0, 0.2); /* se opacan los elementos */
+}
+
+li a{
+  display: block;  /* posiciona a la derecha la lista */
+  color: black;
+  text-align: center;  /* alinea en el centro */
+  padding: 14px;
+  text-decoration: none; /* quita la linea de los enlaces */
+}/* barra de navegacion */
+ul.clase1{
+  list-style-type: none; /* quita el estilo de listas */
+  padding: 30px 50px 0 0;
+  overflow: hidden; /* El contenido es recortado y no se muestran barras de posición */
+  position: absolute; /* para ubicar la barra de navegacion en la parte superior */
+  top: 0;
+  text-align: right;
+  width: 100%; /* abarca un 100& del ancho de la pantalla */
+}
+li{
+  float: right; /* posiciona a la derecha la lista */
+}
+.formulario:hover{
+  background-color: rgba(250, 235, 236, 0.3); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
+}
+
+li a{
+  display: block;  /* posiciona a la derecha la lista */
+  color: rgb(0, 0, 0);
+  text-align: center;  /* alinea en el centro */
+  padding: 14px;
+  text-decoration: none; /* quita la linea de los enlaces */
+}
+
 .contenedor-imagenes{
     display:flex;
     width: 1000px;
