@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/009/279/988/non_2x/nice-abstract-pastel-color-abstract-background-used-for-wallpaper-and-dicorective-templates-design-free-vector.jpg');
+  background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
+}
+
 
 /* barra de navegacion */
 ul.clase1{
