@@ -8,29 +8,6 @@
 
 /* barra de navegacion */
 ul.clase1{
-  list-style-type: none;
-  padding: 30px 50px 0 0;
-  overflow: hidden; 
-  position: absolute; /* para ubicar la barra de navegacion en la parte superior */
-  top: 0;
-  text-align: right;
-  width: 100%; 
-}
-li{
-  float: right; /* posiciona a la derecha la lista */
-}
-.formulario:hover{
-  background-color: rgba(233, 44, 11, 0.774); /* se opacan los elementos */
-}
-
-li a{
-  display: block;  /* posiciona a la derecha la lista */
-  color: black;
-  text-align: center;  /* alinea en el centro */
-  padding: 14px;
-  text-decoration: none; /* quita la linea de los enlaces */
-}/* barra de navegacion */
-ul.clase1{
   list-style-type: none; /* quita el estilo de listas */
   padding: 30px 50px 0 0;
   overflow: hidden; /* El contenido es recortado y no se muestran barras de posición */
@@ -43,7 +20,7 @@ li{
   float: right; /* posiciona a la derecha la lista */
 }
 .formulario:hover{
-  background-color: rgb(52, 17, 209); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
+  background-color: rgba(250, 235, 236, 0.3); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
 }
 
 li a{
@@ -71,18 +48,6 @@ li a{
 }
 
 
-
-header {
-  width: 100%;
-  height: 600px;
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(240, 28%, 19%, 0.438), hsla(244, 38%, 28%, 0.432), hsla(246, 57%, 10%, 0.432)),url(../img/fondo4.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative; /* footer */
-  
-  }
   
   img.logo{
   float: left;
