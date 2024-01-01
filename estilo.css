@@ -21,7 +21,7 @@ li{
   float: right; /* posiciona a la derecha la lista */
 }
 .formulario:hover{
-  background-color: rgba(250, 235, 236, 0.3); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
+  background-color: rgba(0, 0, 0, 0.3); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
 }
 
 li a{
