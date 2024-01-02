@@ -45,9 +45,9 @@ li a{
 }
 
 .contenedor-imagenes .imagen{
-    width: 22%;
+    width: 19%;
     position: relative;
-    height:300px;
+    height:200px;
     margin-bottom:5px;
     box-shadow: 0px 0px 3px 0px white
 }
