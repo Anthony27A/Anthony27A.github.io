@@ -38,7 +38,7 @@ li a{
 
 .contenedor-imagenes{
     display:flex;
-    width: 1000px;
+    width: 500px;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
