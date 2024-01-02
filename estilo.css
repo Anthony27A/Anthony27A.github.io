@@ -88,7 +88,7 @@ li a{
 }
 
 .imagen:hover .overlay{
-    height:98%;
+    height:75%;
     cursor: pointer;
 }
 
