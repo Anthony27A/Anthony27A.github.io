@@ -20,6 +20,7 @@ ul.clase1{
   position: absolute; /* para ubicar la barra de navegacion en la parte superior */
   top: 0;
   text-align: right;
+  font-family: 'Open Sans';
   width: 100%; /* abarca un 100& del ancho de la pantalla */
 }
 li{
