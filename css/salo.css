@@ -73,7 +73,7 @@ main .sobre-nosotros{
 }
 
 .sobre-nosotros .contenido-textos{
-    width: 48%; /* el texto abarca 48% del espacio en pantalla */
+    width: 38%; /* el texto abarca 48% del espacio en pantalla */
 }
 
 .contenido-textos h3{
