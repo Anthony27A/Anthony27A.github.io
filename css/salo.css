@@ -108,7 +108,7 @@ main .sobre-nosotros{
 }
 /* titulos enumerados */
 .contenido-textos h3 span{
-    background-color: #e4add8ad;
+    background-color: #dac031ef;
     color: white;
     border-radius: 50%; /* para que sea redondo*/
     display: inline-block; /* muestra los elementos con respecto a los bloques, esto evita que el circulo se vea ovalado */
