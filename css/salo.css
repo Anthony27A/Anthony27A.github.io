@@ -123,7 +123,12 @@ footer{
   margin-bottom: 5px;
 }
 
-
+.content-foo h4{
+  color: rgb(247, 204, 14);
+  border-bottom: 3px solid rgb(189, 171, 70);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
 
 .gallery{
   max-width: 800px;
