@@ -2,3 +2,86 @@ body{
     background-image: url('https://img.freepik.com/foto-gratis/fondo-textura-hormigon-vineta-rosa-pastel_53876-129734.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1704153600&semt=ais');
     background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
   }
+
+
+
+  img{
+    float: left;
+}
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+/* para hacer el efecto de ola */
+.wave{
+    position: absolute;
+    bottom: 0; /* sin espacio en la parte inferior */
+    width: 100%; /* abarca 100% de ancho */
+}
+/* los textos que estan en el header */
+header .textos-header{
+    display: flex; /* para que se comporte como un elemento en bloques */
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* para que los elementos dentro del bloque se comporten como columnas */
+    text-align: center;
+}
+
+/* diferentes tamaños de los titulos dentro del header */
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.titulo{
+    color: #AE2D05;
+    font-size: 30px;
+    text-align: center;/* coloca en el centro */
+    margin-bottom: 40px; /* ldeja un espacio de 60px en la parte inferior */
+}
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 38%; /* esto hace que las imagenes abarquen un 48% del ancho de la pagina, el otro 48% se utiliza para el texto */
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%; /* el texto abarca 48% del espacio en pantalla */
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px; /* deja un margen de 15px en la parte inferior */
+}
+/* titulos enumerados, por ejemplo vision y mision */
+.contenido-textos h3 span{
+    background-color: #C07E72;
+    color: white;
+    border-radius: 50%; /* para que sea redondo*/
+    display: inline-block; /* muestra los elementos con respecto a los bloques, esto evita que el circulo se vea ovalado */
+    text-align: center; /*para que este en el centro*/
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); /* coloca una sombra a los elementos redondos que rodena los numeros */
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify; /* esto hace que el texto abarque la mayor cantidad de anchura, haciendo que se vea simetrico */
+}
+
