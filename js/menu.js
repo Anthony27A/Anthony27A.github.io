@@ -6,6 +6,7 @@ var menu=
     '<li class="formulario"><a href="jomara.html">Jomara</a></li>'+
     '<li class="formulario"><a href="adriana.html">Adriana</a></li>'+
     '<li class="formulario"><a href="index.html">Inicio</a></li>'+
+    '<li class="formulario"><a href="prueba.html">Prueba</a></li>'+
     
     '</ul>';
     document.getElementById('contenedor-menu').
