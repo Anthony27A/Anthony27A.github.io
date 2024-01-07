@@ -100,7 +100,12 @@ main .sobre-nosotros{
     text-align: justify; /* esto hace que el texto abarque la mayor cantidad de anchura, haciendo que se vea simetrico */
 }
 
-
+.content-foo h1{
+  color: white;
+  border-bottom: 3px solid green;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
 .gallery{
   max-width: 800px;
   margin: auto;
