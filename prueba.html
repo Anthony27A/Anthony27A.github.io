@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/salo.css">
     <b><title>Mi Blog-Sali</title></b>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
   </head>
   <body background="img/fondo5.jpg" width="100%" heigth:"100%"
   background-repeat= no-repeat
@@ -64,19 +65,37 @@
 </section>
 
 
+<h1>Carrusel de Fotos</h1>
+    <!-- Estas dos son clases de la libería -->
+    <div class="gallery js-flickity"
+        data-flickity-options = '{"wrapAround":true}'> <!-- Sirve para que las fotos puedan deslizarse desde la primera a la ultima y de la ultima a la primera -->
+        <div class="gallery-cell">
+            <img src="img/1.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/2.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/3.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/4.jpg" alt="">
+        </div>
+        <div class="gallery-cell">
+            <img src="img/5.jpg" alt="">
+        </div>
+    </div>
 
-<div class="carrousel">
-  <div class="grande">
-      <img src="img/Amigos.JPG" alt="Imagen 1" class="img">
-      <img src="img/familia.jpeg" alt="Imagen 2" class="img">
-  </div>
+    <!-- script de la libería -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"> </script>    
 
-  <ul class="puntos">
-      <li class="punto activo"></li>
-      <li class="punto"></li>
+
+
   </ul>
 </div>
 </main>
+
+
 
 
 
