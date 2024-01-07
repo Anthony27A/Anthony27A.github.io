@@ -100,6 +100,22 @@ main .sobre-nosotros{
     text-align: justify; /* esto hace que el texto abarque la mayor cantidad de anchura, haciendo que se vea simetrico */
 }
 
+footer{
+  background: #131111;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+  }
+  
+  .contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  }  
+
 .content-foo h1{
   color: rgb(247, 204, 14);
   border-bottom: 3px solid rgb(252, 252, 252);
