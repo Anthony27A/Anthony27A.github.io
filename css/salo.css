@@ -14,7 +14,7 @@ body{
  img{
     float: left;
     width: 50px;
-    height: 100px;
+    height: 80px;
     
 
 }
@@ -79,7 +79,7 @@ main .sobre-nosotros{
 .contenido-textos h3{
     margin-bottom: 15px; /* deja un margen de 15px en la parte inferior */
 }
-/* titulos enumerados, por ejemplo vision y mision */
+/* titulos enumerados */
 .contenido-textos h3 span{
     background-color: #C07E72;
     color: white;
