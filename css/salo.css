@@ -70,16 +70,16 @@ main .sobre-nosotros{
 }
 
 .imagen-about-us{
-    width: 15%; /* division */
+    width: 18%; /* division */
     height: 10%
 }
 
 .sobre-nosotros .contenido-textos{
-    width: 38%; /* el texto abarca 48% del espacio en pantalla */
+    width: 38%; /* el texto abarca el espacio en pantalla */
 }
 
 .contenido-textos h3{
-    margin-bottom: 15px; /* deja un margen de 15px en la parte inferior */
+    margin-bottom: 10px; /* deja un margen de 15px en la parte inferior */
 }
 /* titulos enumerados */
 .contenido-textos h3 span{
