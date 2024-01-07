@@ -101,11 +101,16 @@ main .sobre-nosotros{
 }
 
 .content-foo h1{
-  color: white;
-  border-bottom: 3px solid green;
+  color: rgb(247, 204, 14);
+  border-bottom: 3px solid rgb(252, 252, 252);
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+
+.content-foo p{
+  color: #ccc;
+}
+
 .gallery{
   max-width: 800px;
   margin: auto;
