@@ -11,13 +11,7 @@ body{
   }
 
 
- img{
-  
-    float: left;
-    
-    object-fit: cover;
 
-}
 
 
 
@@ -147,6 +141,7 @@ img {
   display: block;
   object-fit: cover;
   object-position: center center;
+  float: left;
 }
 
 a {
@@ -181,12 +176,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  font-weight: inherit;
-  font-size: inherit;
-}
 
 ::selection {
   background-color: var(--negro);
@@ -202,23 +191,7 @@ form, input, textarea, select, button {
   display: block;
 }
 
-body {
-  font-family: var(--tipo-principal);
-  font-size: 100%;
-  line-height: 1.4em;
-  min-height: 100vh;
-  background-color: var(--blanco);
-  color: var(--negro);
-  -webkit-hyphens: auto;
-          hyphens: auto;
-  font-smooth: always;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .carrousel {
   width: 90%;
