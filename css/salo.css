@@ -69,7 +69,7 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 23%; /* esto hace que las imagenes abarquen un 48% del ancho de la pagina, el otro 48% se utiliza para el texto */
-    height: 40%;
+    height: 30%;
 }
 
 .sobre-nosotros .contenido-textos{
