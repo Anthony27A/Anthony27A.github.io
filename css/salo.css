@@ -12,6 +12,31 @@ body{
   }
 
 
+  /* barra de navegacion */
+ul.clase1{
+  list-style-type: none; /* quita el estilo de listas */
+  padding: 30px 50px 0 0;
+  overflow: hidden; /* El contenido es recortado y no se muestran barras de posición */
+  position: absolute; /* para ubicar la barra de navegacion en la parte superior */
+  top: 0;
+  text-align: right;
+  width: 100%; /* abarca un 100& del ancho de la pantalla */
+}
+li{
+  float: right; /* posiciona a la derecha la lista */
+}
+.formulario:hover{
+  background-color: rgba(143, 158, 150, 0.37); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
+}
+
+li a{
+  display: block;  /* posiciona a la derecha la lista */
+  color: rgb(0, 0, 0);
+  text-align: center;  /* alinea en el centro */
+  padding: 14px;
+  text-decoration: none; /* quita la linea de los enlaces */
+}
+
  img{
   
     float: left;
@@ -83,7 +108,7 @@ main .sobre-nosotros{
 }
 /* titulos enumerados */
 .contenido-textos h3 span{
-    background-color: #e03b7a;
+    background-color: #2090ec;
     color: white;
     border-radius: 50%; /* para que sea redondo*/
     display: inline-block; /* muestra los elementos con respecto a los bloques, esto evita que el circulo se vea ovalado */
@@ -143,9 +168,6 @@ footer{
   width: 100%;
   background-size: contain;
 }
-
-
-
 
 
 
