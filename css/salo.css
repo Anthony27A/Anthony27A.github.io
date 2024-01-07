@@ -55,7 +55,7 @@ header .textos-header{
 
 
 .titulo{
-    color: #AE2D05;
+    color: #e7d31a;
     font-size: 30px;
     text-align: center;/* coloca en el centro */
     margin-bottom: 40px; /* ldeja un espacio de 60px en la parte inferior */
@@ -83,7 +83,7 @@ main .sobre-nosotros{
 }
 /* titulos enumerados */
 .contenido-textos h3 span{
-    background-color: #C07E72;
+    background-color: #e03b7a;
     color: white;
     border-radius: 50%; /* para que sea redondo*/
     display: inline-block; /* muestra los elementos con respecto a los bloques, esto evita que el circulo se vea ovalado */
