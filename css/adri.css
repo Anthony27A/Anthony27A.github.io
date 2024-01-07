@@ -7,10 +7,35 @@
   
   
   body{
-      background-image: url('https://static.vecteezy.com/system/resources/previews/031/712/208/non_2x/colorful-abstract-background-with-blurred-image-is-a-vibrant-and-visually-appealing-design-asset-for-use-in-advertisements-websites-or-social-media-posts-to-add-a-modern-touch-to-the-visuals-free-vector.jpg');
+      background-image: url('https://static.vecteezy.com/system/resources/previews/009/279/851/non_2x/pastel-pink-and-soft-blue-color-gradient-background-free-vector.jpg');
       background-repeat: no-repeat;background-attachment: fixed;background-size: cover;
     }
   
+  
+    /* barra de navegacion */
+  ul.clase1{
+    list-style-type: none; /* quita el estilo de listas */
+    padding: 30px 50px 0 0;
+    overflow: hidden; /* El contenido es recortado y no se muestran barras de posición */
+    position: absolute; /* para ubicar la barra de navegacion en la parte superior */
+    top: 0;
+    text-align: right;
+    width: 100%; /* abarca un 100& del ancho de la pantalla */
+  }
+  li{
+    float: right; /* posiciona a la derecha la lista */
+  }
+  .formulario:hover{
+    background-color: rgba(143, 158, 150, 0.37); /* cuando pasamos el muose sobre los elementos de la lista se opacan */
+  }
+  
+  li a{
+    display: block;  /* posiciona a la derecha la lista */
+    color: rgb(0, 0, 0);
+    text-align: center;  /* alinea en el centro */
+    padding: 14px;
+    text-decoration: none; /* quita la linea de los enlaces */
+  }
   
    img{
     
@@ -55,7 +80,7 @@
   
   
   .titulo{
-      color: #AE2D05;
+      color: #e7d31a;
       font-size: 30px;
       text-align: center;/* coloca en el centro */
       margin-bottom: 40px; /* ldeja un espacio de 60px en la parte inferior */
@@ -83,7 +108,7 @@
   }
   /* titulos enumerados */
   .contenido-textos h3 span{
-      background-color: #C07E72;
+      background-color: #da318e;
       color: white;
       border-radius: 50%; /* para que sea redondo*/
       display: inline-block; /* muestra los elementos con respecto a los bloques, esto evita que el circulo se vea ovalado */
@@ -100,6 +125,35 @@
       text-align: justify; /* esto hace que el texto abarque la mayor cantidad de anchura, haciendo que se vea simetrico */
   }
   
+  footer{
+    background: #fcffff;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    }
+    
+    .contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    }  
+  
+  .content-foo h1{
+    color: rgb(247, 204, 14);
+    border-bottom: 3px solid rgb(189, 171, 70);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .content-foo h4{
+    color: rgb(247, 204, 14);
+    border-bottom: 3px solid rgb(189, 171, 70);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
   
   .gallery{
     max-width: 800px;
@@ -114,9 +168,6 @@
     width: 100%;
     background-size: contain;
   }
-  
-  
-  
   
   
   
@@ -207,3 +258,4 @@
   .btn-42:active {
     top: 2px;
   }
+  
